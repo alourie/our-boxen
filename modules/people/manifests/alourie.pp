@@ -13,6 +13,7 @@ class people::alourie {
   package { 'virtualbox': provider => 'brewcask' }
   package { 'vagrant': provider => 'brewcask' }
   package { 'java': provider => 'brewcask' }
+  package { 'skype': provider => 'brewcask' }
 
 
 	
