@@ -14,6 +14,8 @@ class people::alourie {
   package { 'vagrant': provider => 'brewcask' }
   package { 'java': provider => 'brewcask' }
   package { 'skype': provider => 'brewcask' }
+  package { 'vlc': provider => 'brewcask' }
+  package { 'monotype-skyfonts': provider => 'brewcask' }
 
 
 	
